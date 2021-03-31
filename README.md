@@ -1,5 +1,8 @@
 # TryHackMe-PickleRick-CTF---Writeup
-Writeup for pickle rick ctf challenge by TryHackMe
+Writeup for pickle rick ctf challenge by TryHackMe 
+
+Go visit TryHackMe website for more ! 
+https://www.tryhackme.com/
 
 
 We need to find the three ingredients, meaning three flags.
@@ -38,7 +41,7 @@ There are the minified js and css for bootstrap and jquery along with other imag
 
 Let's take a look to the robots.txt as well, as it can contain useful information.
 
-It contains only one word: Wubbalubbadubdub . This could be either an easter egg or a password, let's note it and move on.
+It contains only one word: *censored* . This could be either an easter egg or a password, let's note it and move on.
 
 
 At this point I tried to enumarate the web server with gobuster looking for php extensions
@@ -47,7 +50,7 @@ At this point I tried to enumarate the web server with gobuster looking for php 
 
 A /login.php immediately pops up. Let's visit it.
 
-It is a simple login page, let's try with what we have found so far (R1ckRul3s:Wubbalubbadubdub) 
+It is a simple login page, let's try with what we have found so far (R1ckRul3s:*censored*) 
 
 It works!
 
