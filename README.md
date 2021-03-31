@@ -75,7 +75,7 @@ Let's look at the file "clue.txt"
 
 > Look around the file system for the other ingredient.
 
-So I guess we're going to look around. I won't use "find" as it seems that the flags naming is not standard naming, so it will be a waste of time.
+So I guess we're going to look around. I won't use "find" as it seems that the flags naming is not standard naming, so it would be a waste of time.
 
 Let's see who are the users in the machine
 
